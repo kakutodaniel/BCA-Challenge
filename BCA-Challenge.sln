@@ -21,11 +21,16 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auction.API", "Auction.API\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Tests", "5 - Tests", "{75803A75-CD71-4EF2-9D92-D8A6E56ED2E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auction.Domain.UnitTests", "Auction.Domain.UnitTests\Auction.Domain.UnitTests.csproj", "{6FEDF539-F932-424E-96D4-3BD1E63AE807}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auction.Domain.UnitTests", "Auction.Domain.UnitTests\Auction.Domain.UnitTests.csproj", "{6FEDF539-F932-424E-96D4-3BD1E63AE807}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auction.Tests.CrossCutting", "Auction.Tests.CrossCutting\Auction.Tests.CrossCutting.csproj", "{95BEB999-DB0D-4282-AC63-D0C05CC32170}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auction.Tests.CrossCutting", "Auction.Tests.CrossCutting\Auction.Tests.CrossCutting.csproj", "{95BEB999-DB0D-4282-AC63-D0C05CC32170}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auction.Application.UnitTests", "Auction.Application.UnitTests\Auction.Application.UnitTests.csproj", "{7B6C99B8-D350-4E86-A60C-9C6C7DB0B306}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auction.Application.UnitTests", "Auction.Application.UnitTests\Auction.Application.UnitTests.csproj", "{7B6C99B8-D350-4E86-A60C-9C6C7DB0B306}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E575BE61-2B49-4A46-9F63-5CA05A406D8C}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

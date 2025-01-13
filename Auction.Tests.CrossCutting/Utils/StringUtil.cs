@@ -5,7 +5,7 @@
         public static string GenerateRandomString(int length)
         {
             const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_-+=<>?[]{}|\\/:;,.";
-            Random random = new Random();
+            Random random = new();
             char[] stringChars = new char[length];
 
             for (int i = 0; i < length; i++)
