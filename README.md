@@ -13,7 +13,7 @@ This project is a Web API built with ASP<span>.NET</span> Core 6. It provides a 
 To run this project, you will need the following:
 
 - [.NET 6 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
-- Postman or another tool to test the endpoints
+- Swagger, which will be launched when you run the application, Postman or another tool to test the endpoints
 
 ## Endpoints Overview
 Here is an overview of the main API endpoints available:
@@ -30,7 +30,7 @@ Here is an overview of the main API endpoints available:
 
 **Vehicle**
 
-- POST `/api/vehicle/hatchback`: Add a new hatch vehicle
+- POST `/api/vehicle/hatchback`: Add a new hatchback vehicle
 - POST `/api/vehicle/sedan`: Add a new sedan vehicle
 - POST `/api/vehicle/suv`: Add a new suv vehicle
 - POST `/api/vehicle/truck`: Add a new truck vehicle
