@@ -10,10 +10,10 @@ This project is a Web API built with ASP<span>.NET</span> Core 6. It provides a 
 - Swagger 6.5
 
 ## Requirements
-To run this project, you will need the following:
+To run and test this project, you will need the following:
 
 - [.NET 6 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
-- Swagger, which will be launched when you run the application, Postman or another tool to test the endpoints
+- Postman or another tool to test the endpoints (or Swagger, which will be launched when you run the application)
 
 ## Endpoints Overview
 Here is an overview of the main API endpoints available:
